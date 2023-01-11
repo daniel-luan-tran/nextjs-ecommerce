@@ -1,0 +1,44 @@
+#checkout-component .check-out-img {
+  max-width: 80%;
+}
+
+#checkout-component .row:hover {
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  font-style: italic;
+}
+
+.checkout-head-bg {
+  background: #f5f5f5;
+}
+
+.checkout-data-bg {
+  background: #f5f5f5;
+}
+
+.prod-name {
+  font-family: "Brush Script MT";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .mb-fied-price-item::before {
+    content: "Price/Item";
+    margin-right: 20px;
+    font-weight: 700;
+  }
+  .mb-fied-price-sum::before {
+    content: "Price";
+    margin-right: 20px;
+    font-weight: 700;
+  }
+  .mb-d-none {
+    display: none !important;
+  }
+  .mb-prod-name {
+    font-family: "Brush Script MT";
+    font-weight: 600;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=check-out.styles.css.map */

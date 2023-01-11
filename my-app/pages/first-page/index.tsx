@@ -1,10 +1,9 @@
 import Link from "next/link";
-
+import HomePage from "../../components/homepage/homepage.component"
 const FirstPage = () => {
     return (
         <>
-        <h1>First Page!!!</h1>
-        <Link href={`first-page/second-page`}>Go to second page</Link>
+            <HomePage />
         </>
     )
 }

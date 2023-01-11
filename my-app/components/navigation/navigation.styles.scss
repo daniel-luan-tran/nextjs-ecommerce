@@ -1,0 +1,106 @@
+.nav-link {
+    font-weight: 700;
+    width: fit-content;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button.navbar-toggler {
+    height: 43px;
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon {
+        display: block;
+    }
+}
+
+.menu-icon {
+    display: none;
+}
+
+/*@media screen and (max-width: 768px) {
+    .menu-icon {
+        margin-right: 10px;
+    }
+}*/
+
+@media screen and (max-width: 1050px) {
+    .menu-icon {
+        display: block;
+        width: 43px;
+        height: -8px;
+        cursor: pointer;
+        transition: all .7s;
+        -webkit-transition: all .7s;
+        -moz-transition: all .7s;
+        -o-transition: all .7s;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon span:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon span {
+        height: 2px;
+        width: 100%;
+        display: block;
+        background: rgb(0, 0, 0);
+        margin-bottom: 7px;
+        transition: all .7s;
+        -webkit-transition: all .7s;
+        -moz-transition: all .7s;
+        -o-transition: all .7s;
+        position: relative;
+    }
+}
+
+
+/*@media screen and (max-width: 1050px) {
+    .menu-icon.active {
+        width: 45px;
+        margin-right: 10px;
+    }
+}*/
+
+@media screen and (max-width: 1050px) {
+    .menu-icon.active span:first-child {
+        transform: rotate(225deg);
+        -ms-transform: rotate(225deg);
+        -webkit-transform: rotate(225deg);
+        top: 13px;
+        left: -2px;
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon.active span:nth-child(2) {
+        left: 1px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon.active span:last-child {
+        transform: rotate(-225deg);
+        -ms-transform: rotate(-225deg);
+        -webkit-transform: rotate(-225deg);
+        top: -13px;
+        width: 15px;
+        left: -2px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-icon span:last-child {
+        margin-bottom: 0;
+    }
+}

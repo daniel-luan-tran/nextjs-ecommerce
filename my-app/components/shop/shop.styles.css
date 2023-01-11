@@ -1,0 +1,110 @@
+.MuiPaper-root {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.filter-header {
+  min-height: 10px !important;
+  background: #f5f5f5;
+}
+
+.menu-icon-sidebar {
+  position: fixed;
+  top: 0px;
+  left: 26px;
+  z-index: 2;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.box-menu-icon {
+  height: 38px;
+  width: 54px;
+  --bs-bg-opacity: 1;
+  background-color: #f5f5f5;
+  position: fixed;
+  top: 65px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+  }
+  .category-name {
+    grid-column: span 1;
+    font-family: "Brush Script MT";
+    font-weight: 700;
+    text-align: center;
+  }
+  .MuiDrawer-paper {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .desktop-field {
+    display: none !important;
+  }
+}
+@media (max-height: 420px) {
+  .MuiDrawer-paper {
+    height: 70vh !important;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-field {
+    display: none !important;
+  }
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+  }
+  .category-name {
+    grid-column: span 2;
+    font-family: "Brush Script MT";
+    font-weight: 700;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+  }
+  .category-name {
+    grid-column: span 4;
+    font-family: "Brush Script MT";
+    font-weight: 700;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+  }
+  .category-name {
+    grid-column: span 4;
+    font-family: "Brush Script MT";
+    font-weight: 700;
+    text-align: center;
+  }
+}/*# sourceMappingURL=shop.styles.css.map */

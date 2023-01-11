@@ -1,0 +1,21 @@
+@mixin list-style-none() {
+    list-style-type: none;
+}
+.list-style-none {
+    @include list-style-none();
+}
+
+.cart-item {
+    @include list-style-none();
+    padding-left: 0px;
+    padding-bottom: 0.75em;
+    margin-bottom: 0.75em;
+    height: 100px;
+    border-bottom: solid 1px gray;
+}
+
+.cart-item-img {
+    width: 50%;
+    max-height: 100%;
+    float: left;
+}
